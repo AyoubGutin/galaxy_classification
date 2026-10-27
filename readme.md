@@ -25,7 +25,7 @@ There are ten classes associated with the original dataset:
 
 Classes are mutually exclusive, and labels were gathered from a pool of [Galaxy Zoo Volunteers](https://www.galaxyzoo.org/) to classify the images, with a 55% agreement threshold, using a [decision tree](https://data.galaxyzoo.org/gz_trees/gz_trees.html)
 
-Dataset is composed of 69x69 (cropped and downscaled from 424x24) images of coloured galaxies, its values are the g, r, and i band.
+Dataset is composed of 69x69 (cropped and downscaled from 424x24) images of coloured galaxies, its values come from the g, r, and i band. values are 8-bit integers (0–255) -> relative brightness.
 
 ![alt text](example_classes.png)
 
